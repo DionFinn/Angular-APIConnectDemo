@@ -1,0 +1,5 @@
+<div>
+  <input #input type = "number" /><br />
+  <button (click)="handleClick()"> Get Posts!</button>
+</div>
+<app-post *ngIf="foundPost" [post]="foundPost"></app-post>
